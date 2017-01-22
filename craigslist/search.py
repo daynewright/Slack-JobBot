@@ -1,7 +1,7 @@
 from craigslist import CraigslistHousing
 from slackclient import SlackClient
 
-SLACK_TOKEN = "xoxp-10821332610-10816494390-130072235584-64b1dcb7331fc7a8fa754125c3eff5b5"
+SLACK_TOKEN = "TOKEN_GOES_HERE"
 SLACK_CHANNEL = "test_channel"
 
 sc = SlackClient(SLACK_TOKEN)
