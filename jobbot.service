@@ -17,8 +17,8 @@ NoNewPrivileges=true
 PrivateTmp=true
 InaccessibleDirectories=/sys /srv -/opt /media-/lost+found
 ReadWriteDirectories=/home/dayne/Projects/Slack-JobBot
-WorkingDirectory=/home/dayne/Projects/Slack-JobBot/craigslist
-ExecStart=/usr/bin/python /home/dayne/Projects/Slack-JobBot/craigslist/search.py
+WorkingDirectory=/home/dayne/Projects/Slack-JobBot/search
+ExecStart=/usr/bin/python /home/dayne/Projects/Slack-JobBot/search/search.py
 
 [Install]
 WantedBy=multi-user.target
