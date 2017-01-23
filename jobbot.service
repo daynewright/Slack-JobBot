@@ -1,0 +1,24 @@
+[Unit]
+Description=Slack JobBot
+Documentation=
+
+[Service]
+User=dayne
+Group=dayne
+Nice=5
+KillMode=control-group
+SuccessExitStatus=0 1
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=SlackJobBot
+
+NoNewPrivileges=true
+PrivateTmp=true
+InaccessibleDirectories=/sys /srv -/opt /media-/lost+found
+ReadWriteDirectories=/home/dayne/Projects/Slack-JobBot
+WorkingDirectory=/home/dayne/Projects/Slack-JobBot/craigslist
+ExecStart=/usr/bin/python /home/dayne/Projects/Slack-JobBot/craigslist/search.py
+
+[Install]
+WantedBy=multi-user.target
