@@ -11,7 +11,9 @@ When the bot first run it will send a welcome message and run the first check
 
 When the bot does find jobs it list all of the new ones discovered
 
-<img src="images/jobs_posted.png" style="display: block; margin: auto; width: 50%" />
+<p align="center">
+  <img src="images/jobs_posted.png" width="50%" />
+</p>
 
 
  The main source code (and many thanks!) can be found here: https://github.com/juliomalegria/python-craigslist
