@@ -15,7 +15,7 @@ def check_job():
     sc = SlackClient(SLACK_TOKEN)
 
     cl = CraigslistHousing(site='nashville', category='sof',
-                            filters={'posted_today': False })
+                            filters={'posted_today': True })
 
     results = cl.get_results(sort_by='newest', limit=20)
 
@@ -39,4 +39,3 @@ def check_job():
 
 sched.add_job(check_job, 'interval', hours=12)
 sched.start()
-
