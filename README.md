@@ -20,5 +20,13 @@ When the bot does find jobs it list all of the new ones discovered
   </kbd>
 </p>
 
+It will also search Dice for potential jobs (set to filter out recruiting positions) and post them daily
+
+<p align="center">
+  <kbd>
+    <img src="images/dice.png" />
+  </kbd>
+<p/>
+
 <hr />
  The main source code (and many thanks!) can be found here: https://github.com/juliomalegria/python-craigslist
