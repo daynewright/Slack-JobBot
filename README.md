@@ -6,7 +6,7 @@ A very simple Slack Bot that checks for new developer postings in Nashville ever
 When the bot first run it will send a welcome message and run the first check
 <p align="center">
   <kbd>
-    ![](images/no_jobs.png)
+    <img src="images/no_jobs.png" />
   </kbd>
 </p>
 
