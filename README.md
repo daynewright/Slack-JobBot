@@ -1,4 +1,4 @@
-# Craigslist Slack JobBot
+# Craigslist & Dice Slack JobBot
 
 A very simple Slack Bot that checks for new developer postings in Nashville every 12 hours. It will post a message with the new jobs found or a message informing the channel that no jobs were found.
 
