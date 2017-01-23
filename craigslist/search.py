@@ -4,6 +4,9 @@ from aspscheduler.schedulers.blocking import BlockingScheduler
 
 sched = BlockingScheduler()
 
+SLACK_TOKEN = "TOKEN_GOES_HERE"
+SLACK_CHANNEL = "test_channel"
+
 def check_job():
     print("Checking for new jobs...")
     SLACK_TOKEN = "TOKEN_GOES_HERE"
