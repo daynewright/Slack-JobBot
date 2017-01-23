@@ -35,8 +35,8 @@ def check_job():
             "chat.postMessage", channel=SLACK_CHANNEL, text=desc,
             username='JobBot', icon_emoji=':unamused:'
         )
-        print("Done checking jobs and no new jobs added today")
+        print("Done checking jobs and no new jobs added so far today. Checking again in 12 hours! :)")
 
-sched.add_job(check_job, 'interval', hours=24)
+sched.add_job(check_job, 'interval', hours=12)
 sched.start()
 
