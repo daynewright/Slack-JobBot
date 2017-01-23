@@ -5,14 +5,16 @@ A very simple Slack Bot that checks for new developer postings in Nashville ever
 ## First Run
 When the bot first run it will send a welcome message and run the first check
 
-![](images/no_jobs.png)
+<kbd>![](images/no_jobs.png)</kbd>
 
 ## Jobs Found
 
 When the bot does find jobs it list all of the new ones discovered
 
 <p align="center">
-  <img src="images/jobs_posted.png" width="50%" />
+  <kbd>
+    <img src="images/jobs_posted.png" width="50%" />
+  </kbd>
 </p>
 
 
