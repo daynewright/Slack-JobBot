@@ -45,7 +45,7 @@ def check_job():
     )
     print("Waiting to run job search again...")
 
-message = ":wave: *I am here and working! Posting new jobs every 12 hours.*"
+message = ":wave: *I am here and working!*"
 
 sc.api_call(
         "chat.postMessage", channel=SLACK_CHANNEL, text=message,
