@@ -1,4 +1,3 @@
-from craigslist import CraigslistHousing
 from slackclient import SlackClient
 from apscheduler.schedulers.blocking import BlockingScheduler
 from dicesearch import get_dice
